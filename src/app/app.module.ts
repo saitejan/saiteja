@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { PComponent } from './p/p.component';
 
 @NgModule({
   declarations: [
+    PComponent,
     AppComponent
   ],
   imports: [
