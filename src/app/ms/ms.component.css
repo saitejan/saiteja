@@ -1,0 +1,25 @@
+
+.profile {
+    width: 40%;
+    height: 50%;
+}
+
+.firstrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile {
+        padding: 10%;
+        width: 80%;
+        height: 50%;
+    }
+   .firstrow {
+       flex-direction: column;
+   }
+  }
+
+.details {
+    padding: 10%;
+}
